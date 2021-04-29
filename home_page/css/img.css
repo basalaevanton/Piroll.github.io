@@ -1,0 +1,122 @@
+/* imgs */
+/* заливка */
+.page__imgs {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.img__card {
+  width: 25%;
+
+  position: relative;
+}
+
+.img__img {
+  background: linear-gradient(to bottom, #ffffff, #000000);
+
+  transition: transform 0.5s linear;
+}
+.img__img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.5s linear;
+}
+
+.img__text {
+  width: 100%;
+
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  opacity: 0;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 2;
+  transform: translate3d(0, -50%, 0);
+
+  transition: opacity 0.2s linear;
+}
+
+.img__card:hover .img__img img {
+  opacity: 0.2;
+}
+
+.img__card:hover .img__text {
+  opacity: 1;
+}
+/* анимация №1 */
+.img__card1 {
+  width: 25%;
+
+  position: relative;
+}
+
+.img__img1 {
+  background: linear-gradient(to bottom, #ffffff, #000000);
+
+  transition: transform 0.5s linear;
+}
+.img__img1 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+}
+
+.img__text1 {
+  width: 100%;
+
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  opacity: 0;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 2;
+}
+
+.img__card1:hover .img__img1 img {
+  animation: flip-in-diag-2-br 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  opacity: 0.2;
+}
+
+.img__card1:hover .img__text1 {
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+
+  opacity: 1;
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes flip-in-diag-2-br {
+  0% {
+    -webkit-transform: rotate3d(-1, 1, 0, -80deg);
+    transform: rotate3d(-1, 1, 0, -80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 0, 0deg);
+    transform: rotate3d(1, 1, 0, 0deg);
+    opacity: 1;
+  }
+}

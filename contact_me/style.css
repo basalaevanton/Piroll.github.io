@@ -1,0 +1,154 @@
+/* font-family: 'Montserrat';
+font-family: 'Nunito Sans';
+font-family: 'Work Sans';
+ */
+
+@import './css/reset.css';
+@import './css/header.css';
+@import './css/footer.css';
+@import './css/contact.css';
+@import './css/contact_info.css';
+@import './css/contact_inputs.css';
+
+@import './css/map.css';
+body {
+  font-family: 'Montserrat';
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: normal;
+  color: #191919;
+}
+
+/* Body */
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .footer__table {
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+  .table__adress {
+    padding-left: 140px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer__table {
+    justify-content: center;
+  }
+  .table__adress {
+    padding-left: 35px;
+  }
+  .table__nav {
+    padding-left: 70px;
+  }
+  .nav__social {
+    padding-left: 70px;
+  }
+
+ 
+}
+
+@media (max-width: 992px) {
+  .contact__me {
+    padding-top: 50px;
+  }
+  .contact__info {
+    padding-right: 60px;
+  }
+  .your__btn {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table__adress {
+    padding-left: 15px;
+  }
+  .table__nav {
+    padding-left: 35px;
+  }
+  .nav__social {
+    padding-left: 30px;
+  }
+
+  .contact__me {
+    flex-wrap: wrap;
+  }
+  .contact__info {
+    width: 100%;
+  }
+  .contact__table {
+    width: 100%;
+  }
+}
+@media (max-width: 682px) {
+  .footer {
+    padding: 15px 0;
+  }
+  .footer__table {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .table__nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .table__nav ul li {
+    padding-right: 15px;
+  }
+  .table__corp {
+    order: 11;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .corp__name {
+    padding-right: 10px;
+  }
+  .table__adress {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 10;
+    padding-top: 15px;
+  }
+  .table__adress a {
+    padding-right: 15px;
+  }
+  .corp__name {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .header__logo {
+    display: none;
+  }
+  .nav__list {
+    padding: 0;
+  }
+  .nav__item {
+    padding-left: 15px;
+  }
+  .nav__tab {
+    justify-content: center;
+  }
+}
+@media (max-width: 370px) {
+}

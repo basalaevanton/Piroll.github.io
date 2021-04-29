@@ -1,0 +1,27 @@
+/* contact info */
+.contact__article {
+    text-align: left;
+  }
+  .contact__title {
+    font-size: 38px;
+    padding-bottom: 35px;
+    line-height: 1;
+  }
+  .contact__text {
+    font-family: 'Nunito Sans';
+    font-size: 16;
+    color: #787878;
+  }
+  
+  .help {
+    padding-top: 20px;
+  }
+  .help1 {
+    padding-bottom: 10px;
+  }
+  
+  .bold__text {
+    font-weight: bold;
+    color: black;
+    padding-right: 5px;
+  }

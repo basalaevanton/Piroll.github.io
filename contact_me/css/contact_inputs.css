@@ -1,0 +1,82 @@
+
+/* style inputs */
+
+.table__your {
+    display: flex;
+  
+    position: relative;
+    flex-direction: row;
+  
+    padding-bottom: 30px;
+  }
+  .your__name {
+    width: 100%;
+    padding-right: 30px;
+  }
+  .your__email {
+    width: 100%;
+  }
+  
+  .your__title {
+    padding-bottom: 30px;
+  }
+  .your__comment {
+    padding-bottom: 30px;
+  }
+  .comment__area {
+    resize: vertical;
+    min-height: 170px;
+  }
+  
+  .contact__form {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: white;
+  
+    text-indent: 15px;
+  }
+  
+  .contact__form:focus {
+    outline: none;
+  }
+  
+  /* placeholder animat */
+  .contact__form::placeholder {
+    opacity: 1;
+    transition: opacity 0.6s ease;
+  }
+  .contact__form:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  /* btn */
+  .your__btn {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 100px;
+  }
+  .contact__btn {
+    display: block;
+    padding: 18px 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+    background-color: #141414;
+    color: #f5f5f5;
+    transition: 0.3s linear;
+    cursor: pointer;
+  }
+  
+  .contact__btn:hover {
+    background-color: #10c9c3;
+  }
+  
+  .contact__btn:active {
+    transition: 0.1s linear;
+    background-color: #85e0dc;
+  }
+  
+  

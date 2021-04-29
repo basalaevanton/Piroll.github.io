@@ -1,0 +1,16 @@
+.main__title {
+  padding: 90px 0 80px;
+  background-color: #f6f6f6;
+}
+.page__title {
+  font-size: 38px;
+  color: #171717;
+  padding-bottom: 30px;
+}
+
+.page__text {
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  color: #787878;
+}
+

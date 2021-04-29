@@ -1,0 +1,36 @@
+.header__navbar {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.nav__tab {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.nav__list {
+  display: flex;
+
+  list-style-type: none;
+
+  margin: 0;
+  padding-right: 15px;
+}
+
+.nav__item {
+  padding-left: 30px;
+}
+.nav__item a {
+  font-size: 15px;
+  line-height: 2;
+  color: #191919;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: linear 0.5s;
+}
+.nav__item a:hover {
+  color: #10c9c3;
+}

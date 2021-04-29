@@ -1,0 +1,18 @@
+main {
+  background-color: #f5f5f5;
+}
+.contact__me {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-top: 100px;
+}
+
+.contact__info {
+  width: 40%;
+  padding-right: 120px;
+}
+
+.contact__table {
+  width: 60%;
+}
