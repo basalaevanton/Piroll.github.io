@@ -25,7 +25,7 @@
 
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="../home_page/index.html" role="button"> home</a>
+                <a href="home_page/index.html" role="button"> home</a>
               </li>
               <li class="nav__item">
                 <a href="..//project_slider/index.html" role="button">slider</a>
