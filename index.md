@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&family=Work+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home_page/style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
       <header class="header">
         <nav class="header__navbar">
           <div class="container nav__tab">
-            <a href="" class="header__logo">
+            <a href="home_page/index.html" class="header__logo">
               <img src="./img/logo.png" alt="" class="logo" />
             </a>
 
@@ -28,13 +28,13 @@
                 <a href="home_page/index.html" role="button"> home</a>
               </li>
               <li class="nav__item">
-                <a href="..//project_slider/index.html" role="button">slider</a>
+                <a href="project_slider/index.html" role="button">slider</a>
               </li>
               <li class="nav__item">
-                <a href="..//about/index.html" role="button"> about</a>
+                <a href="about/index.html" role="button"> about</a>
               </li>
               <li class="nav__item">
-                <a href="..//contact_me/index.html" role="button">contact</a>
+                <a href="contact_me/index.html" role="button">contact</a>
               </li>
             </ul>
           </div>
