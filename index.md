@@ -20,7 +20,7 @@
         <nav class="header__navbar">
           <div class="container nav__tab">
             <a href="home_page/index.html" class="header__logo">
-              <img src="./img/logo.png" alt="" class="logo" />
+              <img src="home_page/img/logo.png" alt="" class="logo" />
             </a>
 
             <ul class="nav__list">
@@ -59,56 +59,56 @@
           <!-- просто заливка -->
           <div class="img__card">
             <div class="img__img">
-              <img src="./img/1.jpg" alt="" />
+              <img src="home_page/img/1.jpg" alt="" />
             </div>
             <div class="img__text">photo card</div>
           </div>
           <div class="img__card">
             <div class="img__img">
-              <img src="./img/2.jpg" alt="" />
+              <img src="home_page/img/2.jpg" alt="" />
             </div>
             <div class="img__text">photo card</div>
           </div>
           <div class="img__card">
             <div class="img__img">
-              <img src="./img/3.jpg" alt="" />
+              <img src="home_page/img/3.jpg" alt="" />
             </div>
             <div class="img__text">photo card</div>
           </div>
           <div class="img__card">
             <div class="img__img">
-              <img src="./img/4.jpg" alt="" />
+              <img src="home_page/img/4.jpg" alt="" />
             </div>
             <div class="img__text">photo card</div>
           </div>
           <div class="img__card">
             <div class="img__img">
-              <img src="./img/1.jpg" alt="" />
+              <img src="home_page/img/1.jpg" alt="" />
             </div>
             <div class="img__text">photo card</div>
           </div>
           <div class="img__card">
             <div class="img__img">
-              <img src="./img/2.jpg" alt="" />
+              <img src="home_page/img/2.jpg" alt="" />
             </div>
             <div class="img__text">photo card</div>
           </div>
           <div class="img__card">
             <div class="img__img">
-              <img src="./img/3.jpg" alt="" />
+              <img src="home_page/img/3.jpg" alt="" />
             </div>
             <div class="img__text">photo card</div>
           </div>
           <div class="img__card">
             <div class="img__img">
-              <img src="./img/4.jpg" alt="" />
+              <img src="home_page/img/4.jpg" alt="" />
             </div>
             <div class="img__text">photo card</div>
           </div>
           <!-- анимация №1 -->
           <!-- <div class="img__card1">
             <div class="img__img1">
-              <img src="./img/1.jpg" alt="" />
+              <img src="home_page/img/1.jpg" alt="" />
             </div>
             <div class="img__text1">photo card</div>
           </div> -->
